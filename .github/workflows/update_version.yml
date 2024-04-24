@@ -44,7 +44,7 @@ jobs:
     env:
       PR_NUMBER: ${{ github.event.pull_request.number }}
       GH_TOKEN: ${{ github.token }}
-      VERSION_PATH: qick_lib/qick/VERSION
+      VERSION_PATH: VERSION
       CHECK_TOKEN: ${{ secrets.CHECK_TOKEN }}
     steps:
     - uses: actions/checkout@v4
